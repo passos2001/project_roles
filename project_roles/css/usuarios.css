@@ -1,0 +1,52 @@
+﻿/* Estilo para el contenedor principal del formulario */
+.container {
+    background-color: rgba(240, 247, 252, 0.9); /* Fondo transparente */
+    border: 2px solid #ccc; /* Borde gris claro */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 30px;
+    width: 400px; /* Ancho del formulario */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    text-align: center;
+    margin: auto; /* Centrar horizontalmente */
+    margin-top: 10vh; /* Centrar verticalmente con margen superior */
+}
+
+
+/* Cambia el color del texto de las etiquetas (atributos/nombres) a negro */
+label {
+    color: #000; /* Cambia a color negro (#000) */
+}
+
+/* Estilo para los títulos */
+h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Color de texto */
+}
+
+/* Estilo para los campos de entrada de texto */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para el botón de envío */
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color de texto del botón */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    /* Estilo para el botón de envío al pasar el mouse sobre él */
+    .btn:hover {
+        background-color: #0056b3; /* Cambiar color de fondo al pasar el mouse */
+    }
